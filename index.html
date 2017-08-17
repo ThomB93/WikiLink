@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Bare - Start Bootstrap Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="vendor/animate/animate.css">
+
+    <!-- Custom styles for this template -->
+    <style>
+        body {
+            padding-top: 54px;
+        }
+
+        @media (min-width: 992px) {
+            body {
+                padding-top: 56px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+
+
+    <!-- Page Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <h1>Wikipedia Links Viewer</h1>
+                <div class="input-group">
+                    <span class="input-group-btn">
+                              <button onclick="getLinks()" class="btn btn-secondary" type="button">Go!</button>
+                            </span>
+                    <input id="searchTermInput" type="text" class="form-control" placeholder="Search for..." aria-label="Search for...">
+                </div>
+                <br>
+                <div class="input-group">
+                        <label for=""></label>
+                        <input id="numberofLinksInput" value="" type="number" class="form-control" placeholder="Number of links..." aria-label="Search for...">
+                    </div>
+            </div>
+            <div class="col-sm-6">
+                <ul id="linksList" class="list-group">
+                    
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
